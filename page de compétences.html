@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Camille, développeuse et artiste passionnée" />
+    <meta name="keywords" content="portfolio, web, design, développement, art" />
+    <title>Portfolio de Camille</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc;
+            color: #333;
+        }
+        header {
+            background-color: #ffc0cb;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #87ceeb;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #4169e1;
+            border-bottom: 2px solid #4169e1;
+            padding-bottom: 5px;
+        }
+        p {
+            color: #FF1493;
+            line-height: 1.6;
+        }
+        .skill {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .skill img {
+            width: 50px;
+            height: 50px;
+        }
+        .return-button {
+            background-color: #FF1493;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        .return-button:hover {
+            background-color: #ffc0cb;
+            color: #333;
+        }
+        footer {
+            background-color: #ffc0cb;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+        }
+        footer nav a {
+            color: white;
+            font-size: 1.2em;
+        }
+        footer nav a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur mon portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="PAGE D'ACCUEIL 2.HTML">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="page de compétences .html">Compétences</a></li>
+            <li><a href="ma page contacts de mon portfolio .html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis Camille, un(e) créatif(ve) passionné(e) par le développement web, le design graphique et l’art sous toutes ses formes... [texte conservé]</p>
+    </section>
+
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Photoshop" />
+            <div>
+                <h3>Adobe Photoshop</h3>
+                <p>Débutante : Utilisation pour la retouche de base et l’exploration créative.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" />
+            <div>
+                <h3>Figma</h3>
+                <p>Moyen : Création d’interfaces et de prototypes interactifs.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg" alt="Adobe XD" />
+            <div>
+                <h3>Adobe XD</h3>
+                <p>Débutante : Découverte de la conception UI/UX.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_canva.png" alt="Canva" />
+            <div>
+                <h3>Canva</h3>
+                <p>Avancé : Création de visuels impactants et harmonieux.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://seeklogo.com/images/F/filmora-logo-BBD0B20E2E-seeklogo.com.png" alt="Filmora" />
+            <div>
+                <h3>Filmora</h3>
+                <p>Avancé : Montage vidéo fluide et création de contenu dynamique.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Visual_Studio_Code_1.35_icon.svg" alt="Éditeur de code" />
+            <div>
+                <h3>Éditeur de code (VS Code)</h3>
+                <p>Moyen : Développement de pages web HTML/CSS avec organisation et autonomie.</p>
+            </div>
+        </div>
+
+        <button class="return-button" onclick="window.location.href='PAGE D\'ACCUEIL 2.HTML';">Retour à l'accueil</button>
+    </section>
+</main>
+
+<footer>
+    <section>
+        <h2>Retrouvez-moi sur les réseaux</h2>
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/@AUGUSTEArtChant22" target="_blank">YouTube</a></li>
+                <li><a href="https://www.linkedin.com/in/camille-auguste-a0225234a" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/camille_6590" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2025 Camille - Tous droits réservés</p>
+    </section>
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Camille, développeuse et artiste passionnée" />
+    <meta name="keywords" content="portfolio, web, design, développement, art" />
+    <title>Portfolio de Camille</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc;
+            color: #333;
+        }
+        header {
+            background-color: #ffc0cb;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+            margin: 20px 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #87ceeb;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #4169e1;
+            border-bottom: 2px solid #4169e1;
+            padding-bottom: 5px;
+        }
+        p {
+            color: #FF1493;
+            line-height: 1.6;
+        }
+        .skill {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .skill img {
+            width: 50px;
+            height: 50px;
+        }
+        .return-button {
+            background-color: #FF1493;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        .return-button:hover {
+            background-color: #ffc0cb;
+            color: #333;
+        }
+        footer {
+            background-color: #ffc0cb;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+        }
+        footer nav a {
+            color: white;
+            font-size: 1.2em;
+        }
+        footer nav a:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur mon portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="http://localhost:26543/storage/emulated/0/PORFOLIO/PROJET+FINAL+TERMINER/PAGE+D%27ACCUEIL+final+.+HTML.HTML">Accueil</a></li>
+            <li><a href="http://localhost:26543/storage/emulated/0/PORFOLIO/PROJET+FINAL+TERMINER/PAGE++ABOUT+ME+.HTML">À propos</a></li>
+            <li><a href="http://localhost:26543/storage/emulated/0/PORFOLIO/PROJET+FINAL+TERMINER/PAGE++ABOUT+ME+.HTML">Projets</a></li>
+            <li><a href="http://localhost:26543/storage/emulated/0/PORFOLIO/PROJET+FINAL+TERMINER/page+de+comp%C3%A9tences.html">Compétences</a></li>
+            <li><a href="http://localhost:26543/storage/emulated/0/PORFOLIO/PROJET+FINAL+TERMINER/PAGE+CONSTAT.HTML">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis Camille, un(e) créatif(ve) passionné(e) par le développement web, le design graphique et l’art sous toutes ses formes... [texte conservé]</p>
+    </section>
+
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Photoshop" />
+            <div>
+                <h3>Adobe Photoshop</h3>
+                <p>Débutante : Utilisation pour la retouche de base et l’exploration créative.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" />
+            <div>
+                <h3>Figma</h3>
+                <p>Moyen : Création d’interfaces et de prototypes interactifs.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg" alt="Adobe XD" />
+            <div>
+                <h3>Adobe XD</h3>
+                <p>Débutante : Découverte de la conception UI/UX.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_canva.png" alt="Canva" />
+            <div>
+                <h3>Canva</h3>
+                <p>Avancé : Création de visuels impactants et harmonieux.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://seeklogo.com/images/F/filmora-logo-BBD0B20E2E-seeklogo.com.png" alt="Filmora" />
+            <div>
+                <h3>Filmora</h3>
+                <p>Avancé : Montage vidéo fluide et création de contenu dynamique.</p>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Visual_Studio_Code_1.35_icon.svg" alt="Éditeur de code" />
+            <div>
+                <h3>Éditeur de code (VS Code)</h3>
+                <p>Moyen : Développement de pages web HTML/CSS avec organisation et autonomie.</p>
+            </div>
+        </div>
+
+        <button class="return-button" onclick="http://localhost:26543/storage/emulated/0/PORFOLIO/PROJET+FINAL+TERMINER/PAGE+D%27ACCUEIL+final+.+HTML.HTML">Retour à l'accueil</button>
+    </section>
+</main>
+
+<footer>
+    <section>
+        <h2>Retrouvez-moi sur les réseaux</h2>
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/@AUGUSTEArtChant22" target="_blank">YouTube</a></li>
+                <li><a href="https://www.linkedin.com/in/camille-auguste-a0225234a" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/camille_6590" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2025 Camille - Tous droits réservés</p>
+    </section>
+</footer>
+
+</body>
+</html>
